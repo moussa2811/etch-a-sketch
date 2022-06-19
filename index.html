@@ -11,12 +11,14 @@
     <div class="main">
         <h1>Etch a Sketch</h1>
         <form>
+            <span id="numberSpan">16 grids.</span><br>
             <input id="number" type="range" value="16" min="1" max="30">
-            <span id="numberSpan">16</span><br>
-            <input id="color" class="input" type="color" value="#f0f0f0">
-            <input id="apply" class="input" type="button" value="Apply">
-            <input id="eraser" class="input" type="button" value="Eraser">
-            <input id="reset" class="input" type="button" value="Reset">
+            <div class="btnDiv">
+                <input id="color" class="input" type="color" value="#f0f0f0">
+                <input id="apply" class="input" type="button" value="Apply">
+                <input id="eraser" class="input" type="button" value="Eraser">
+                <input id="reset" class="input" type="button" value="Reset">
+            </div>
         </form>
         <p>
             Choose your prefered color and hover a grid to change its color. 

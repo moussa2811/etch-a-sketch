@@ -19,7 +19,7 @@ document.querySelector('#color').addEventListener('change',
 let number = document.querySelector('#number');
 let numberSpan = document.querySelector('#numberSpan');
 number.addEventListener('change', 
-    () => numberSpan.textContent = number.value
+    () => numberSpan.textContent = number.value + " grids."
 );
 
 let resetGrid = () => {
