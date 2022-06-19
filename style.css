@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(71, 49, 49);
+    color: rgb(255, 255, 255);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+form{
+    text-align: center;
+}
+
+.input{
+    width: 60px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    width : 600px;
+    height: 600px;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 10px;
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+}
+
+.box{
+    border-radius: 10px;
+}
+
+.eraser{
+    background-color: rgb(71, 49, 49);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
